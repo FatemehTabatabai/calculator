@@ -10,6 +10,7 @@ body {
   justify-content: center;
   display: flex;
   align-items: center;
+  font-family: "Helvetica", sans-serif;
 }
 .v-1 {
   display: flex;
@@ -27,6 +28,8 @@ body {
 .input-1 {
   width: 560px;
   height: 37px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 }
 .btn {
   width: 560px;
@@ -34,4 +37,8 @@ body {
   background-color: #45a049;
   border: none;
   color: white;
+  cursor: pointer;
+      font-size: 18px;
+  text-transform: uppercase;
+      transition: background-color 0.2s ease;
 }
